@@ -48,7 +48,8 @@
     margin: 0;
   }
   .nav-title,
-  .special-color {
+  .special-color,
+  .img-title {
     font-size: 21px;
   }
   .banner-title {
@@ -74,6 +75,7 @@
     width: 100%;
   }
   main {
+    margin: 0px auto;
     padding: 20px;
   }
   .popular {
@@ -83,13 +85,21 @@
     width: 100%;
   }
   .popular .section-title {
-    font-size: 20px;
     text-align: start;
+    margin-top: 0;
+  }
+  .section-title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
   }
   .section-description {
     font-size: 14px;
   }
-  .destination .section-description {
+  .destination .section-description,
+  .choose-us .section-description,
+  .card-description {
     width: auto;
   }
 

@@ -38,6 +38,20 @@
 section {
   margin-top: 100px;
 }
+
+.card-title {
+  color: #131318;
+
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: 800;
+}
+.card-description {
+  color: #5a5a5d;
+  margin-top: 16px;
+  width: 486px;
+  line-height: 26px;
+}
 /* header related styles */
 
 header {
@@ -227,4 +241,29 @@ main {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* why choose section related styles */
+
+.choose-us .section-description {
+  width: 643px;
+  margin: 0 auto;
+  text-align: center;
+}
+.choose-us-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 24px;
+  margin-top: 48px;
+}
+.choose-us-card {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+
+  background-color: rgba(41, 206, 246, 0.05);
+}
+.choose-us-card:nth-child(2n-1) {
+  background-color: rgba(251, 181, 99, 0.05);
 }
