@@ -106,23 +106,9 @@ nav li a.active {
   font-weight: 800;
 }
 
-/* nav label {
-  display: none;
-  cursor: pointer;
-  position: absolute;
-  right: 20px;
-  z-index: 2;
-}
 .menu-icon {
   display: none;
 }
-#menu-toggle {
-  display: none;
-}
-
-#menu-toggle:checked + .menu-icon + nav ul {
-  display: block;
-} */
 
 /* banner related styles */
 
@@ -132,7 +118,7 @@ nav li a.active {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("../images/Group\ 13\ \(1\)\ \(1\).png");
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
 
   background-position: center center;
   background-repeat: no-repeat;

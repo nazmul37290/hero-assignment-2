@@ -1,11 +1,5 @@
 /* responsive styles */
 @media screen and (max-width: 600px) {
-  /* nav li {
-    text-align: center;
-    width: 100%;
-    margin: 10px 0;
-  }
-
   .menu-icon {
     display: inline-block;
     font-size: 20px;
@@ -14,25 +8,8 @@
 
   nav ul {
     display: none;
-    flex-direction: column;
-    text-align: center;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    background-color: #333;
   }
 
-  #menu-toggle:checked + .menu-icon {
-    background-color: #333;
-  }
-
-  #menu-toggle:checked + .menu-icon + nav ul {
-    display: flex;
-  }
-  .menu-icon:hover nav > ul {
-    display: flex;
-  } */
   nav {
     margin: 20px 0;
   }
@@ -40,9 +17,7 @@
     width: 33px;
     height: 33px;
   }
-  nav ul {
-    display: none;
-  }
+
   header {
     padding: 20px;
     margin: 0;
