@@ -33,4 +33,50 @@
   .menu-icon:hover nav > ul {
     display: flex;
   } */
+  nav {
+    margin: 20px 0;
+  }
+  .nav-title-container img {
+    width: 33px;
+    height: 33px;
+  }
+  nav ul {
+    display: none;
+  }
+  header {
+    padding: 20px;
+    margin: 0;
+  }
+  .nav-title,
+  .special-color {
+    font-size: 21px;
+  }
+  .banner-title {
+    font-size: 24px;
+  }
+  .banner-description {
+    font-size: 14px;
+    width: 300px;
+    line-height: 21px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+  .input-container {
+    flex-direction: column;
+    width: 287px;
+  }
+  .input-container input,
+  select {
+    width: auto;
+  }
+  .input-container .btn-primary {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  header {
+    padding: 0px 30px;
+  }
 }
