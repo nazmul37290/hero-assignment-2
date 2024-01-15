@@ -329,3 +329,43 @@ main {
   object-fit: cover;
   border-radius: 16px;
 }
+
+/* get lost related styles */
+
+.get-lost {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.get-lost-content {
+  width: 50%;
+}
+.get-lost-content li {
+  color: #131318;
+  list-style-position: inside;
+
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.get-lost .btn-primary {
+  margin-top: 30px;
+}
+.get-lost .section-title {
+  width: 448px;
+  text-align: start;
+  line-height: 60px;
+}
+.get-lost .section-description {
+  text-align: start;
+  margin-bottom: 24px;
+}
+.get-lost-video-container {
+  height: 450px;
+}
+.get-lost-video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
