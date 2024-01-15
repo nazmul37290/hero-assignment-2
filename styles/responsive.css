@@ -96,6 +96,7 @@
   }
   .section-description {
     font-size: 14px;
+    width: auto;
   }
   .destination .section-description,
   .choose-us .section-description,
@@ -118,6 +119,33 @@
   section {
     margin-top: 30px;
   }
+  .deals-card-container {
+    height: 500px;
+  }
+  .deals-card-container .card-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  .deal-card-content,
+  .deal-card-content2 {
+    padding: 16px;
+    left: 50px;
+    right: 50px;
+  }
+  .deal-card-content .card-description {
+    height: 50px;
+    overflow: hidden;
+  }
+  .deal-info {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .deals .btn-primary {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -127,5 +155,14 @@
   }
   nav ul li {
     margin-right: 20px;
+  }
+  .deals-card-container {
+    height: 500px;
+  }
+  .deals-card-container .card-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
   }
 }
