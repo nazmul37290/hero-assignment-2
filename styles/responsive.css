@@ -82,17 +82,40 @@
   .popular-img-container img {
     width: 100%;
   }
-  .section-title {
+  .popular .section-title {
     font-size: 20px;
     text-align: start;
   }
   .section-description {
     font-size: 14px;
   }
+  .destination .section-description {
+    width: auto;
+  }
+
+  .img-box-row {
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .img-box {
+    height: 300px;
+  }
+  .img-box img {
+    height: 100%;
+    width: 100%;
+  }
+  section {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  header {
+  header,
+  main {
     padding: 0px 30px;
+  }
+  nav ul li {
+    margin-right: 20px;
   }
 }
