@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
 
@@ -15,6 +16,7 @@
   height: 52px;
   border-radius: 8px;
   background: #ff5400;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
   border: none;
@@ -25,8 +27,16 @@
   color: #131318;
   text-align: center;
   font-size: 40px;
-
+  margin-bottom: 24px;
   font-weight: 800;
+}
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+
+  line-height: 26px;
+}
+section {
+  margin-top: 100px;
 }
 /* header related styles */
 
@@ -117,6 +127,7 @@ nav li a.active {
   align-items: center;
   justify-content: center;
   border-radius: 16px;
+  margin-top: 50px;
 }
 
 .banner-title {
@@ -159,3 +170,24 @@ select {
   border: none;
 }
 /* main related styles */
+main {
+  max-width: 1440px;
+  padding: 0 130px;
+  margin: 50px auto;
+}
+
+/* popular section related styles */
+.popular {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.popular-section-content li {
+  margin-top: 16px;
+  list-style-position: inside;
+}
+
+.popular .btn-primary {
+  margin-top: 30px;
+}
