@@ -54,10 +54,12 @@
     padding: 20px;
   }
   .popular,
-  .get-lost {
+  .get-lost,
+  .newsletter {
     flex-direction: column;
   }
-  .popular-img-container img {
+  .popular-img-container img,
+  .newsletter-img-container img {
     width: 100%;
   }
   .popular .section-title {
@@ -76,7 +78,9 @@
   }
   .destination .section-description,
   .choose-us .section-description,
-  .card-description {
+  .card-description,
+  .form .card-description,
+  .form .discount-banner {
     width: auto;
   }
 
@@ -106,13 +110,16 @@
   }
   .deal-card-content,
   .deal-card-content2 {
+    width: 300px;
     padding: 16px;
-    left: 50px;
-    right: 50px;
+    left: 50%;
+    right: 50%;
+
+    transform: translate(-50%, -50%);
   }
   .deal-card-content .card-description,
   .deal-card-content2 .card-description {
-    height: 50px;
+    height: 48px;
     overflow: hidden;
   }
   .deal-info {
@@ -143,6 +150,25 @@
   .get-lost .btn-primary {
     margin: 0;
   }
+  .newsletter .discount-banner {
+    width: auto;
+    padding: 14px 10px;
+    bottom: 30px;
+  }
+  .newsletter .discount-banner-description {
+    font-size: 21px;
+  }
+  .newsletter .discount-banner-title {
+    font-size: 16px;
+  }
+  .newsletter-img-container {
+    height: 350px;
+  }
+  .newsletter-img-container img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -170,5 +196,14 @@
   }
   .popular-section-content {
     width: 50%;
+  }
+  .newsletter-img-container {
+    height: 405px;
+  }
+  .newsletter-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
   }
 }
