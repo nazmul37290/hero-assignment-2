@@ -345,13 +345,53 @@ main {
 .get-lost .section-description {
   text-align: start;
   margin-bottom: 24px;
+  width: auto;
 }
 .get-lost-video-container {
+  position: relative;
   height: 450px;
+}
+.get-lost-video-container p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+
+  font-size: 24px;
+
+  font-weight: 700;
+  line-height: 36px;
 }
 .get-lost-video-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
+}
+
+.icon-box-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+}
+
+.leftside-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.leftside-icons span {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+.rightside-icons {
+  display: flex;
+  gap: 10px;
 }

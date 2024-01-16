@@ -162,8 +162,8 @@
     object-fit: cover;
     border-radius: 16px;
   }
-  .get-lost .section-description {
-    width: auto;
+  .get-lost-video-container p {
+    font-size: 20px;
   }
   .popular-img-container img {
     width: 100%;
