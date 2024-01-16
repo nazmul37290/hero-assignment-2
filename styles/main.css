@@ -21,6 +21,18 @@
   border: none;
   color: #fff;
 }
+.brand-title-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.brand-title {
+  color: #131318;
+
+  font-size: 36px;
+
+  font-weight: 800;
+}
 
 .section-title {
   color: #131318;
@@ -67,18 +79,7 @@ nav {
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.nav-title-container {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.nav-title {
-  color: #131318;
 
-  font-size: 36px;
-
-  font-weight: 800;
-}
 nav > ul {
   display: flex;
 }
@@ -459,4 +460,36 @@ main {
   font-size: 32px;
 
   font-weight: 800;
+}
+
+/* footer related styles */
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px;
+}
+footer .section-description {
+  margin-top: 20px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  padding: 30px 200px 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+}
+.social-links a {
+  padding: 10px;
+  color: #131318;
+}
+
+footer .copywrite {
+  margin-top: 50px;
 }
