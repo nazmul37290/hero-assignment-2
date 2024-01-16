@@ -185,6 +185,17 @@
   .review .card-name {
     font-size: 20px;
   }
+
+  .card-title {
+    font-size: 20px;
+  }
+  .card-description {
+    font-size: 14px;
+  }
+  .deal-card-content p,
+  .deal-card-content2 p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
