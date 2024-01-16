@@ -173,6 +173,18 @@
     padding: 50px;
     margin-top: 30px;
   }
+  .review-card-container {
+    flex-direction: column;
+  }
+  .review-card {
+    margin-bottom: 80px;
+  }
+  .review .card-description {
+    font-size: 14px;
+  }
+  .review .card-name {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
