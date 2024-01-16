@@ -173,6 +173,9 @@
     padding: 50px;
     margin-top: 30px;
   }
+  footer .social-links {
+    padding: 30px 50px 50px;
+  }
   .review-card-container {
     flex-direction: column;
   }

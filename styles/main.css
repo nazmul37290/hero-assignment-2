@@ -523,8 +523,7 @@ footer .section-description {
   display: flex;
   align-items: center;
   padding: 30px 200px 50px;
-  padding-top: 30px;
-  padding-bottom: 50px;
+
   border-bottom: 1px solid rgba(19, 19, 24, 0.1);
 }
 .social-links a {
